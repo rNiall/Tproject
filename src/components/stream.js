@@ -13,7 +13,7 @@ function Stream({ tracks = [] }) {
   );
 }
  
-function mapStateToProps(state) {
+function mapStateToProps(state, props) {
   const tracks = state.track;
   return {
     tracks
